@@ -1,22 +1,26 @@
 
 
-
-h1 
-    {
-        text-align: center;
-        color: red;
+    body, html {
+        height: 100%;
+        background-image: url(./images/background/background1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
     }
 
 
-
-p 
-    {
-        text-align: center;
+    .title {   
+        color:darkred;
+        text-align: end;
+        font-weight: 600;
+        font-size: 45px;
+        padding-right: 15%;
     }
 
-
-
-
-div {
-    text-align: center;
-}
+    .foodMenu {
+        font-size: large;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: start;
+    }
